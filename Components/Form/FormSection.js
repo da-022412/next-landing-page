@@ -3,16 +3,12 @@ import { Box, Container, Grid } from '@material-ui/core';
 import Form from './Form';
 
 const content = {
-    title: 'Has The Retail Equation prevented you from making a return or exchange?',
-    subTitle:
-        'If so, please submit the following information to participate in the class action:',
-    formFooter:
-        'An attorney client relationship is not formed by submitting information through this web site.',
+    title: 'Submit Your Complaint',
 };
 
 const SplitFormSection = () => {
     return (
-        <Box component='section' className='intro-section section'>
+        <Box component='section' className='form-section section'>
             <Container maxWidth='lg'>
                 <Grid
                     container
@@ -32,18 +28,10 @@ const SplitFormSection = () => {
                     </Grid>
                     <Grid item xs={12} md={6}>
                         <Box className='form-wrap'>
-                            <Box className='intro-section-wrap  text-center'>
+                            <Box className='form-section-wrap  text-center'>
                                 <h2 className='heading-2'>{content.title}</h2>
-                                <h3 className='heading-3 text-muted'>
-                                    {content.subTitle}
-                                </h3>
                             </Box>
                             <Form />
-                            <Box className='form-footer text-center'>
-                                <small className='small text-muted'>
-                                    <em>{content.formFooter}</em>
-                                </small>
-                            </Box>
                         </Box>
                     </Grid>
                 </Grid>

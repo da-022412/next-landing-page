@@ -1,4 +1,7 @@
 .hero-section {
     background: url(/images/bk-banner.jpg) top center/cover;
-    min-height: 550px;
+}
+
+.hero-section-wrap {
+    padding: toRem(200) 0;
 }
