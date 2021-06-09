@@ -1,0 +1,15 @@
+@import 'partials/style';
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.is-white {
+    color: var(--white);
+}
+
+.section {
+    padding: toRem(48) 0;
+}

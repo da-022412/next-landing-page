@@ -1,0 +1,16 @@
+.header {
+    background-color: transparent;
+    position: relative;
+    width: 100%;
+}
+
+.header-wrap {
+    padding: toRem(16);
+    position: absolute;
+}
+
+.logo {
+    font-size: toRem(20);
+    font-weight: 400;
+    white-space: nowrap;
+}

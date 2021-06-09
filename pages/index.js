@@ -1,24 +1,35 @@
-import * as React from 'react';
-import Container from '@material-ui/core/Container';
-import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
-import ProTip from '../src/ProTip';
-import Link from '../src/Link';
-import Copyright from '../src/Copyright';
+import Head from 'next/head';
 
-export default function Index() {
-  return (
-    <Container maxWidth="sm">
-      <Box sx={{ my: 4 }}>
-        <Typography variant="h4" component="h1" gutterBottom>
-          Next.js v5-alpha example
-        </Typography>
-        <Link href="/about" color="secondary">
-          Go to the about page
-        </Link>
-        <ProTip />
-        <Copyright />
-      </Box>
-    </Container>
-  );
+import Hero from '../Components/Content/Hero';
+import Content from '../Components/Content/Content';
+import FormSection from '../Components/Form/FormSection';
+
+export default function Home() {
+    return (
+        <>
+            <Head>
+                <meta charset='utf-8' />
+                <title>Class Action Agency</title>
+                <meta name='description' content='Class Action Agency' />
+                <meta
+                    name='viewport'
+                    content='width=device-width, initial-scale=1'
+                />
+
+                <link rel='apple-touch-icon' href='images/favicon.jpg' />
+                <link rel='shortcut icon' href='images/favicon.jpg' />
+                <link rel='icon' sizes='192x192' href='images/favicon.jpg' />
+
+                <meta name='theme-color' content='#f7f7f7' />
+
+                <script
+                    type='text/javascript'
+                    src='./scripts/jotform.js'
+                ></script>
+            </Head>
+            <Hero />
+            <Content />
+            <FormSection />
+        </>
+    );
 }
