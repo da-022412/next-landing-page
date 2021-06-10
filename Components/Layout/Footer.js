@@ -1,8 +1,8 @@
-import { Container } from '@material-ui/core';
+import { Box, Container } from '@material-ui/core';
 
 const Footer = () => {
     return (
-        <footer className='footer section'>
+        <Box component='footer' className='footer' py={6}>
             <Container maxWidth='md'>
                 <small className='small text-center text-muted'>
                     Class Action Agency connects consumers with law firms
@@ -43,7 +43,7 @@ const Footer = () => {
                     </a>
                 </small>
             </Container>
-        </footer>
+        </Box>
     );
 };
 

@@ -11,6 +11,12 @@
     }
 }
 
+.form-wrap {
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    padding: toRem(40) toRem(12);
+}
+
 .MuiFormControl-root {
     width: 100%;
 }

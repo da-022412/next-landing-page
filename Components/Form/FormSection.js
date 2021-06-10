@@ -8,7 +8,7 @@ const content = {
 
 const SplitFormSection = () => {
     return (
-        <Box component='section' className='form-section section'>
+        <Box component='section' className='form-section' py={12} id='form'>
             <Container maxWidth='lg'>
                 <Grid
                     container
@@ -17,7 +17,7 @@ const SplitFormSection = () => {
                     spacing={12}
                 >
                     <Grid item xs={12} md={6}>
-                        <Box>
+                        <Box className='is-white'>
                             <h2 className='heading-2'>Free Case Review</h2>
                             <p className='body-text'>
                                 Submit your information for a free case review,

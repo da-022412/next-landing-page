@@ -34,7 +34,6 @@ a:hover {
 }
 
 .body-text {
-  color: var(--text);
   font-size: 1rem;
   margin-bottom: 1.75rem;
   text-align: left;
@@ -43,7 +42,6 @@ a:hover {
 .heading-1,
 .heading-2,
 .heading-3 {
-  color: var(--text);
   font-weight: 400;
   margin-bottom: 1.75rem;
 }
@@ -76,19 +74,6 @@ a:hover {
   background-color: var(--grey);
 }
 
-.footer-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  list-style-type: none;
-  padding: 0;
-}
-
-.footer-list a {
-  color: var(--muted);
-  font-weight: 400;
-}
-
 .form {
   margin-bottom: 2rem;
 }
@@ -99,6 +84,12 @@ a:hover {
 }
 .form .MuiButton-contained:hover {
   background-color: var(--hover);
+}
+
+.form-wrap {
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  padding: 2.5rem 0.75rem;
 }
 
 .MuiFormControl-root {
@@ -113,9 +104,19 @@ a:hover {
   color: var(--primary-color) !important;
 }
 
+.form-section {
+  background: url("/images/bk-banner2.jpg") bottom center/cover;
+}
+
 .header {
-  background-color: var(--primary-color);
-  padding: 1rem 0;
+  background-color: transparent;
+  position: relative;
+  width: 100%;
+}
+
+.header-wrap {
+  padding: 1rem;
+  position: absolute;
 }
 
 .logo {
@@ -124,18 +125,12 @@ a:hover {
   white-space: nowrap;
 }
 
-.nav .MuiButton-label {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 1rem;
-  font-weight: 400;
-  text-transform: none;
-}
-.nav .MuiButton-label:hover {
-  color: rgba(255, 255, 255, 0.75);
+.hero-section {
+  background: url(/images/bk-banner.jpg) top center/cover;
 }
 
-.nav .MuiButton-root:hover {
-  background-color: transparent;
+.hero-section-wrap {
+  padding: 12.5rem 0;
 }
 
 html,
@@ -146,10 +141,11 @@ body {
 
 .is-white {
   color: var(--white);
+  font-weight: inherit;
 }
-
-.section {
-  padding: 3rem 0;
+.is-white:hover {
+  color: var(--white);
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=global.css.map */
