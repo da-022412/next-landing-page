@@ -105,7 +105,7 @@ a:hover {
 }
 
 .form-section {
-  background: url("/images/bk-banner2.jpg") bottom center/cover;
+  background: url("images/bk-banner2.jpg") bottom center/cover;
 }
 
 .header {
@@ -128,7 +128,7 @@ a:hover {
 }
 
 .hero-section {
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/images/bk-banner.jpg") center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("images/bk-banner.jpg") center center/cover;
 }
 
 .hero-section-wrap {
