@@ -1,7 +1,7 @@
 import { Box, Button, Container } from '@material-ui/core';
 
 const content = {
-    title: 'Lawyers Investigating Auto-Renewal. Violations With The Atlantic. We Want to Talk to you About Your Legal Claims and Options',
+    title: 'Lawyers are Investigating Auto-Renewal Violations by The Atlantic. We Want to...',
     subTitle:
         'If you subscribed to The Atlantic and incurred renewal charges, you may be owed money - fill out the form below to talk with a lawyer.',
 };

@@ -5,41 +5,21 @@ const Footer = () => {
         <Box component='footer' className='footer' py={6}>
             <Container maxWidth='md'>
                 <small className='small text-center text-muted'>
-                    Class Action Agency connects consumers with law firms
-                    investigating violations of consumer protection laws, with
-                    the goal of protecting the rights of individuals against the
-                    wrongdoings of the world’s largest companies. Class Action
-                    Agency is not a law firm and does not guarantee a referral
-                    and no attorney-client relationship is formed by your use of
-                    this website or by any communication you send or receive
-                    through this site. The content and features on this website
-                    shall not be construed as legal advice. The content and
-                    features of this website, including means to submit a
-                    question or information, do not constitute an offer to
-                    represent you. This site and some of the articles on this
-                    site contain links to other resources, businesses, and firms
-                    on the Internet. Those links are provided as citations and
-                    aids to help you identify and locate other internet
-                    resources that may be of interest, or law firms that may be
-                    investigating wrongdoing of corporations, and are not
-                    intended to state or imply that Class Action Agency
-                    sponsors, is affiliated or associated with, guarantees, or
-                    is legally authorized to use any trade name, registered
-                    trademark, logo, legal or official seal, or copyrighted
-                    symbol that may be reflected in the links. Consumer
-                    Protection Law is not responsible for any loss, injury,
-                    claim, liability, or damage related to your use of this site
-                    or any site linked to this site, whether from errors or
-                    omissions in the content of our site or any other linked
-                    sites, from the site being down or from any other use of the
-                    site. In short, your use of the site is at your own risk.
-                    For further information, please visit our Privacy Policy at:
+                    Attorney Advertising. Bursor & Fisher, P.A. 888 7th Ave, New
+                    York, NY 10019. The information you obtain at this site is
+                    not, nor is it intended to be, legal advice. You should
+                    consult an attorney for advice regarding your individual
+                    situation. We invite you to contact us and welcome your
+                    correspondence. Contacting us does not create an
+                    attorney-client relationship. Please do not send any
+                    confidential information to us until such time as an
+                    attorney-client relationship has been established.{' '}
                     <a
-                        href='https://classactionagency.com/privacy-policy/'
-                        target='_blank'
+                        href='https://www.bursor.com/privacy/'
                         rel='nofollow'
+                        target='_blank'
                     >
-                        https://classactionagency.com/privacy-policy/
+                        Privacy Policy and Terms of Use.
                     </a>
                 </small>
             </Container>

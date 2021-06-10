@@ -2,7 +2,6 @@ import Head from 'next/head';
 
 import Hero from '../Components/Content/Hero';
 import Content from '../Components/Content/Content';
-import FormSection from '../Components/Form/FormSection';
 
 export default function Home() {
     return (
@@ -24,12 +23,11 @@ export default function Home() {
 
                 <script
                     type='text/javascript'
-                    src='./scripts/jotform.js'
+                    src='/scripts/jotform.js'
                 ></script>
             </Head>
             <Hero />
             <Content />
-            <FormSection />
         </>
     );
 }

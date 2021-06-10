@@ -2,15 +2,6 @@
     margin-bottom: toRem(32);
 }
 
-.form .MuiButton-contained {
-    background-color: var(--primary-color);
-    color: var(--white);
-
-    &:hover {
-        background-color: var(--hover);
-    }
-}
-
 .form-wrap {
     background-color: #f7f7f7;
     border-radius: 8px;

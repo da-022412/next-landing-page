@@ -1,8 +1,15 @@
 import { Box, Button, Grid, TextField } from '@material-ui/core';
 
+const content = {
+    title: 'Free Case Review',
+};
+
 const Form = () => {
     return (
         <div className='form-wrap'>
+            <Box className='form-section-wrap  text-center'>
+                <h2 className='heading-2'>{content.title}</h2>
+            </Box>
             <Box
                 component='footer'
                 className='form'

@@ -1,9 +1,11 @@
 import { Box, Container } from '@material-ui/core';
 
+import Form from '../Form/Form';
+
 const content = {
-    intro: 'Submit Your Complaint',
+    intro: 'Why Would I Be Owed Money?',
     subTitle:
-        'Do you have a complaint against a company or organization and need legal support? Submit your complaint below and be connected with a class action attorney in our network.',
+        'California state law requires businesses to clearly disclose the terms of any automatically renewing subscription offer and obtain customers’ affirmative consent to those terms before they subscribe.   The Atlantic may not comply with these requirements.',
 };
 
 export default function Content() {
@@ -17,7 +19,16 @@ export default function Content() {
                     <h3 className='heading-3'>
                         <em>{content.subTitle}</em>
                     </h3>
+                    <h3 className='heading-3'>
+                        <b>
+                            If you have been charged a renewal fee for The
+                            Atlantic, we would like to hear from you.
+                        </b>
+                    </h3>
                 </Box>
+                <Container maxWidth='sm'>
+                    <Form />
+                </Container>
             </Container>
         </Box>
     );
