@@ -110,13 +110,15 @@ a:hover {
 
 .header {
   background-color: transparent;
-  position: relative;
+  position: fixed;
+  transition: top 0.3s;
   width: 100%;
 }
 
 .header-wrap {
   padding: 1rem;
-  position: absolute;
+  position: relative;
+  width: 100%;
 }
 
 .logo {
@@ -130,9 +132,14 @@ a:hover {
 }
 
 .hero-section-wrap {
-  padding: 12.5rem 0;
+  padding: 7.5rem 0;
 }
 
+@media (max-width: 767px) {
+  .hero-section-wrap {
+    padding: 3.75rem 0;
+  }
+}
 html,
 body {
   margin: 0;
