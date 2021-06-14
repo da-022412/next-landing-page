@@ -3,9 +3,9 @@
 }
 
 .form-wrap {
-    background-color: #f7f7f7;
+    background-color: var(--white);
     border-radius: 8px;
-    padding: toRem(40) toRem(12);
+    padding: toRem(40) toRem(24);
 }
 
 .MuiFormControl-root {

@@ -1,18 +1,35 @@
 .header {
-    background-color: transparent;
+    background-color: var(--primary-color);
     position: fixed;
     transition: top 0.3s;
     width: 100%;
 }
 
+.header-cta {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+
+    @include sm {
+        justify-content: center;
+    }
+}
+
 .header-wrap {
     padding: toRem(16);
     position: relative;
-    width: 100%;
 }
 
 .logo {
     font-size: toRem(20);
     font-weight: 400;
     white-space: nowrap;
+}
+
+.logo-wrap {
+    text-align: center;
+    
+    @include sm {
+        margin-bottom: toRem(8)
+    }
 }

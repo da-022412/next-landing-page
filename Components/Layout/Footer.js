@@ -15,6 +15,7 @@ const Footer = () => {
                     confidential information to us until such time as an
                     attorney-client relationship has been established.{' '}
                     <a
+                        className='link'
                         href='https://www.bursor.com/privacy/'
                         rel='nofollow'
                         target='_blank'

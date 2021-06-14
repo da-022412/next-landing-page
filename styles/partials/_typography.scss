@@ -16,13 +16,10 @@ li {
 }
 
 a {
-    color: var(--primary-color);
-    font-weight: 700;
     text-decoration: none;
 
     &:hover {
-        color: var(--hover);
-        text-decoration: underline;
+        text-decoration: none;
     }
 }
 
@@ -41,14 +38,37 @@ a {
 
 .heading-1 {
     font-size: toRem(40);
+
+    @include sm {
+        font-size: toRem(28);
+    }
 }
 
 .heading-2 {
     font-size: toRem(32);
+
+    @include sm {
+        font-size: toRem(20)
+    }
 }
 
 .heading-3 {
     font-size: toRem(20);
+
+    @include sm {
+        font-size: toRem(18)
+    }
+}
+
+.link {
+    color: var(--primary-color);
+    font-weight: 700;
+    text-decoration: none;
+
+    &:hover {
+        color: var(--hover);
+        text-decoration: underline;
+    }
 }
 
 .small {

@@ -6,12 +6,12 @@ const content = {
 
 const Form = () => {
     return (
-        <div className='form-wrap'>
+        <Box className='form-wrap' id='form'>
             <Box className='form-section-wrap  text-center'>
                 <h2 className='heading-2'>{content.title}</h2>
             </Box>
             <Box
-                component='footer'
+                component='form'
                 className='form'
                 action='https://submit.jotform.com/submit/211545004337143/'
                 method='post'
@@ -61,7 +61,7 @@ const Form = () => {
                     </Grid>
                 </Grid>
             </Box>
-        </div>
+        </Box>
     );
 };
 
