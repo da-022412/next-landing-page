@@ -24,13 +24,10 @@ li {
 }
 
 a {
-  color: var(--primary-color);
-  font-weight: 700;
   text-decoration: none;
 }
 a:hover {
-  color: var(--hover);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .body-text {
@@ -49,13 +46,38 @@ a:hover {
 .heading-1 {
   font-size: 2.5rem;
 }
+@media (max-width: 767px) {
+  .heading-1 {
+    font-size: 1.75rem;
+  }
+}
 
 .heading-2 {
   font-size: 2rem;
 }
+@media (max-width: 767px) {
+  .heading-2 {
+    font-size: 1.25rem;
+  }
+}
 
 .heading-3 {
   font-size: 1.25rem;
+}
+@media (max-width: 767px) {
+  .heading-3 {
+    font-size: 1.125rem;
+  }
+}
+
+.link {
+  color: var(--primary-color);
+  font-weight: 700;
+  text-decoration: none;
+}
+.link:hover {
+  color: var(--hover);
+  text-decoration: underline;
 }
 
 .small {
@@ -78,6 +100,15 @@ a:hover {
   background-color: var(--hover);
 }
 
+.MuiButton-outlined {
+  border-color: var(--white);
+  color: var(--white);
+}
+.MuiButton-outlined:hover {
+  background-color: #006fe6;
+  border-color: var(--white);
+}
+
 .content-section {
   background-color: var(--grey);
 }
@@ -87,9 +118,9 @@ a:hover {
 }
 
 .form-wrap {
-  background-color: #f7f7f7;
+  background-color: var(--white);
   border-radius: 8px;
-  padding: 2.5rem 0.75rem;
+  padding: 2.5rem 1.5rem;
 }
 
 .MuiFormControl-root {
@@ -109,16 +140,26 @@ a:hover {
 }
 
 .header {
-  background-color: transparent;
+  background-color: var(--primary-color);
   position: fixed;
   transition: top 0.3s;
   width: 100%;
 }
 
+.header-cta {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+@media (max-width: 767px) {
+  .header-cta {
+    justify-content: center;
+  }
+}
+
 .header-wrap {
   padding: 1rem;
   position: relative;
-  width: 100%;
 }
 
 .logo {
@@ -127,12 +168,19 @@ a:hover {
   white-space: nowrap;
 }
 
-.hero-section {
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/images/bk-banner.jpg") center center/cover;
+.logo-wrap {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+@media (max-width: 767px) {
+  .logo-wrap {
+    margin-bottom: 0.5rem;
+  }
 }
 
-.hero-section-wrap {
-  padding: 7.5rem 0;
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/images/bk-banner.jpg") center center/cover;
 }
 
 @media (max-width: 767px) {
@@ -140,6 +188,10 @@ a:hover {
     padding: 3.75rem 0;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   margin: 0;
