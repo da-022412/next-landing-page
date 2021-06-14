@@ -101,8 +101,8 @@ a:hover {
 }
 
 .MuiButton-outlined {
-  border-color: var(--white);
-  color: var(--white);
+  border-color: var(--white) !important;
+  color: var(--white) !important;
 }
 .MuiButton-outlined:hover {
   background-color: #006fe6;
@@ -175,6 +175,7 @@ a:hover {
 }
 @media (max-width: 767px) {
   .logo-wrap {
+    justify-content: center;
     margin-bottom: 0.5rem;
   }
 }
