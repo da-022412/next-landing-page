@@ -1,14 +1,16 @@
 import { Box, Button, Container } from '@material-ui/core';
 
-import Form from '../Form/Form';
+import JotForm from '../Form/JotForm';
 
 const content = {
-    intro: 'Lawyers are Investigating Auto-Renewal Violations by The Atlantic. We want to talk with you about your legal claims and options.',
+    intro: 'Lawyers are investigating subscriptions to ESO Plus for The Elder Scrolls Online. We want to talk with you about your legal claims and options.',
     subIntro:
-        'If you subscribed to The Atlantic and incurred renewal charges, you may be owed money - fill out the form below to talk with a lawyer.',
+        'If you subscribed to ESO Plus and incurred renewal charges, you may be owed money - fill out the form below to talk with a lawyer.',
     title: 'Why Would I Be Owed Money?',
     subTitle:
-        'California state law requires businesses to clearly disclose the terms of any automatically renewing subscription offer and obtain customers’ affirmative consent to those terms before they subscribe.   The Atlantic may not comply with these requirements.',
+        'California state law requires businesses to clearly disclose the terms of any automatically renewing subscription offer and obtain customers’ affirmative consent to those terms before they subscribe. ESO Plus subscriptions may not comply with these requirements.',
+    emphasis:
+        'If you have been charged a renewal fee for an ESO Plus subscription, we would like to hear from you.',
 };
 
 export default function Content() {
@@ -34,14 +36,11 @@ export default function Content() {
                         <em>{content.subTitle}</em>
                     </h3>
                     <h3 className='heading-3'>
-                        <b>
-                            If you have been charged a renewal fee for The
-                            Atlantic, we would like to hear from you.
-                        </b>
+                        <b>{content.emphasis}</b>
                     </h3>
                 </Box>
                 <Container maxWidth='sm'>
-                    <Form />
+                    <JotForm />
                 </Container>
             </Container>
         </Box>

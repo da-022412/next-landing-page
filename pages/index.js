@@ -25,6 +25,10 @@ export default function Home() {
                     type='text/javascript'
                     src='/scripts/jotform.js'
                 ></script>
+                <script
+                    type='text/javascript'
+                    src='scripts/scripts.js'
+                ></script>
             </Head>
             <Content />
         </>

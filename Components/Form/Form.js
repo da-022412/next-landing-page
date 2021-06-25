@@ -13,9 +13,9 @@ const Form = () => {
             <Box
                 component='form'
                 className='form'
-                action='https://submit.jotform.com/submit/211545004337143/'
+                action='https://submit.jotform.com/submit/211724001033132/'
                 method='post'
-                name='form_211545004337143'
+                name='form_211724001033132'
                 id='211545004337143'
                 accept-charset='utf-8'
             >
