@@ -1,14 +1,14 @@
 import Head from 'next/head';
 
-import Content from '../Components/Content/Content';
+import FormForward from '../Components/Content/FormForward';
 
 export default function Home() {
     return (
         <>
             <Head>
                 <meta charset='utf-8' />
-                <title>Class Action Agency</title>
-                <meta name='description' content='Class Action Agency' />
+                <title>Tyson Stockholder Lawsuit</title>
+                <meta name='description' content='Tyson Stockholder Lawsuit' />
                 <meta
                     name='viewport'
                     content='width=device-width, initial-scale=1'
@@ -30,7 +30,7 @@ export default function Home() {
                     src='scripts/scripts.js'
                 ></script>
             </Head>
-            <Content />
+            <FormForward />
         </>
     );
 }

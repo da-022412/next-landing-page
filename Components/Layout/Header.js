@@ -1,7 +1,7 @@
-import { Box, Button, Container, Grid, Hidden } from '@material-ui/core';
+import { Box, Button, Container, Grid } from '@material-ui/core';
 
 const content = {
-    logo: 'Bursor & Fisher',
+    logo: 'Tyson Stockholder Lawsuit',
 };
 
 const Header = () => {
