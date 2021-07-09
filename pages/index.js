@@ -20,15 +20,7 @@ export default function Home() {
                 <link rel='stylesheet' href='global.css' />
 
                 <meta name='theme-color' content='#f7f7f7' />
-
-                <script
-                    type='text/javascript'
-                    src='/scripts/jotform.js'
-                ></script>
-                <script
-                    type='text/javascript'
-                    src='scripts/scripts.js'
-                ></script>
+                <script type='text/javascript' src='scripts.js'></script>
             </Head>
             <FormForward />
         </>
