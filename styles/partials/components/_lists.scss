@@ -1,0 +1,18 @@
+.list {
+    display: table;
+    list-style-type: none;
+    margin: 0 auto toRem(32);
+    text-align: left;
+}
+
+.list li {
+    display: block;
+}
+
+.list li::before {
+    content: '\2022';
+    display: inline-block;
+    font-weight: bold;
+    margin-left: -1em;
+    width: 1em;
+}

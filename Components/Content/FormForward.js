@@ -1,21 +1,23 @@
 import { Box, Button, Container } from '@material-ui/core';
 
 import JotForm from '../Form/JotForm';
+import List from '../List/List';
+import Faq from '../Faq/Faq';
 
 const content = {
-    intro: 'Do you own Tyson stock that was purchased before April 26, 2019?',
+    intro: 'Have you recently purchased sunscreen?',
     subIntro:
-        'If so, you may be entitled to a court approved incentive award in connection with stockholder litigation.',
+        'Recent scientific research reveals that dozens of sunscreens contain benzene, a known carcinogen.  But this fact has been hidden from the public. Consumers who have purchased these sunscreens may have the right to monetary compensation, whether or not they became sick. Get a free assessment here.',
     title: 'Why might I be entitled to compensation as a stockholder of Tyson?',
     subTitle:
-        'Certain members of Tyson’s board of directors and other Tyson executives violated federal antitrust laws by conspiring with competitors to fix chicken prices. They also violated federal securities laws by certifying that the company was complying with federal laws and regulations, and by certifying that its financial statements were true and accurate. This wrongful conduct has caused significant damage to the company and its stockholders.',
+        'Consumers are able to stand up to companies using harmful products. Our attorneys are helping individuals who have purchased sunscreens with harmful chemicals to stand up to manufacturers and deter this behavior.',
     emphasis:
-        'If you own stock in Tyson that was purchased between 2012 and 2019, know your rights. Speak with an attorney at no cost today.',
+        'Did you purchase any of the following sunscreen brands within the last four years?',
 };
 
 export default function Content() {
     return (
-        <Box component='section' className='content-section' py={12}>
+        <Box component='section' className='content-section section'>
             <Container maxWidth='md'>
                 <Box className='text-center' pb={8} pt={6}>
                     <h1 className='heading-1'>{content.intro}</h1>
@@ -24,8 +26,10 @@ export default function Content() {
                 </Box>
             </Container>
             <Container className='text-center' maxWidth='lg'>
-                <Container maxWidth='sm'>
-                    <h2 className='heading-2'>{content.title}</h2>
+                <Container maxWidth='md'>
+                    <h3 className='heading-3'>
+                        <b>{content.title}</b>
+                    </h3>
                 </Container>
                 <Box className='content-wrap'>
                     <h3 className='heading-3'>
@@ -34,8 +38,10 @@ export default function Content() {
                     <h3 className='heading-3'>
                         <b>{content.emphasis}</b>
                     </h3>
+                    <List />
+                    <Faq />
                 </Box>
-                <Button variant='contained'>
+                <Button variant='contained' className='btn'>
                     <a href='#form' className='is-white'>
                         Continue to Free Case Review
                     </a>

@@ -5,7 +5,7 @@ const Form = () => {
         <Box id='form'>
             <script
                 type='text/javascript'
-                src='https://form.jotform.com/jsform/211804353454148'
+                src='https://form.jotform.com/jsform/211874825360155'
             ></script>
         </Box>
     );

@@ -2,26 +2,22 @@ import { Box, Container } from '@material-ui/core';
 
 const Footer = () => {
     return (
-        <Box component='footer' className='footer' py={6}>
+        <Box component='footer' className='footer'>
             <Container maxWidth='md'>
                 <small className='small text-center text-muted'>
-                    Attorney Advertising. Bursor & Fisher, P.A. 888 7th Ave, New
-                    York, NY 10019. The information you obtain at this site is
-                    not, nor is it intended to be, legal advice. You should
-                    consult an attorney for advice regarding your individual
-                    situation. We invite you to contact us and welcome your
-                    correspondence. Contacting us does not create an
-                    attorney-client relationship. Please do not send any
-                    confidential information to us until such time as an
-                    attorney-client relationship has been established.{' '}
-                    <a
-                        className='link'
-                        href='https://www.bursor.com/privacy/'
-                        rel='nofollow'
-                        target='_blank'
-                    >
-                        Privacy Policy and Terms of Use.
-                    </a>
+                    Submission of the information does not create an
+                    attorney/client relationship. By clicking submit, you agree
+                    to the Terms and Conditions and Privacy Policy and that we
+                    may contact you using any of the information that you have
+                    provided. Attorney Advertising - Carney Bates & Pulliam,
+                    PLLC, 519 W 7th St, Little Rock, AR 72201. This website is
+                    for educational and informational purposes only. No
+                    attorney-client relationship is formed by your use of this
+                    website or by any communication you send or receive through
+                    this site. The content and features on this website shall
+                    not be construed as legal advice. The content and features
+                    of this website, including means to submit a question or
+                    information, do not constitute an offer to represent you.
                 </small>
             </Container>
         </Box>

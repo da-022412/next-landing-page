@@ -30,8 +30,8 @@
     align-items: center;
     display: flex;
     justify-content: flex-start;
-    
+
     @include sm {
-        margin-bottom: toRem(8)
+        margin-bottom: toRem(8);
     }
 }
