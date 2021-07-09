@@ -39,7 +39,6 @@ export default function Content() {
                         <b>{content.emphasis}</b>
                     </h3>
                     <List />
-                    <Faq />
                 </Box>
                 <Button variant='contained' className='btn'>
                     <a href='#form' className='is-white'>

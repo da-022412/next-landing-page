@@ -1,5 +1,3 @@
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-
 import {
     Accordion,
     AccordionSummary,
@@ -23,7 +21,7 @@ const Faq = () => {
                 <h3 className='heading-3'>Frequently Asked Questions</h3>
                 <Accordion>
                     <AccordionSummary
-                        expandIcon={<ExpandMoreIcon />}
+                        expandIcon='+'
                         aria-controls='panel1a-content'
                         id='panel1a-header'
                     >
@@ -35,7 +33,7 @@ const Faq = () => {
                 </Accordion>
                 <Accordion>
                     <AccordionSummary
-                        expandIcon={<ExpandMoreIcon />}
+                        expandIcon='+'
                         aria-controls='panel2a-content'
                         id='panel2a-header'
                     >
