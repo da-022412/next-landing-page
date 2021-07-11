@@ -1,5 +1,3 @@
-import { Box, Button, Container } from '@material-ui/core';
-
 import JotForm from '../Form/JotForm';
 import List from '../List/List';
 import Faq from '../Faq/Faq';
@@ -17,21 +15,21 @@ const content = {
 
 export default function Content() {
     return (
-        <Box component='section' className='content-section section'>
-            <Container maxWidth='md'>
-                <Box className='text-center' pb={8} pt={6}>
+        <section className='content-section section'>
+            <div className='container-md'>
+                <div className='text-center'>
                     <h1 className='heading-1'>{content.intro}</h1>
                     <h2 className='heading-3'>{content.subIntro}</h2>
                     <JotForm />
-                </Box>
-            </Container>
-            <Container className='text-center' maxWidth='lg'>
-                <Container maxWidth='md'>
+                </div>
+            </div>
+            <div className='container-lg text-center'>
+                <div className='container-md'>
                     <h3 className='heading-3'>
                         <b>{content.title}</b>
                     </h3>
-                </Container>
-                <Box className='content-wrap'>
+                </div>
+                <div className='content-wrap'>
                     <h3 className='heading-3'>
                         <em>{content.subTitle}</em>
                     </h3>
@@ -39,13 +37,18 @@ export default function Content() {
                         <b>{content.emphasis}</b>
                     </h3>
                     <List />
-                </Box>
-                <Button variant='contained' className='btn'>
-                    <a href='#form' className='is-white'>
-                        Continue to Free Case Review
-                    </a>
-                </Button>
-            </Container>
-        </Box>
+                    <div className='container-md'>
+                        <Faq />
+                    </div>
+                </div>
+                <div className='btn-container'>
+                    <div className='btn primary-btn'>
+                        <a href='#form' className='is-white'>
+                            Continue to Free Case Review
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
     );
 }

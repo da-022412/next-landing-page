@@ -1,3 +1,36 @@
-.answer {
+.accordion {
+    background-color: #eee;
+    border: none;
+    color: #444;
+    cursor: pointer;
+    font-size: toRem(16);
+    outline: none;
+    padding: 18px;
     text-align: left;
+    transition: 0.4s;
+    width: 100%;
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    background-color: #fff;
+    display: none;
+    overflow: hidden;
+    padding: 0 18px;
+}
+
+.accordion::after {
+    color: #777;
+    content: '\02795';
+    float: right;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.active::after {
+    content: '\2796';
 }

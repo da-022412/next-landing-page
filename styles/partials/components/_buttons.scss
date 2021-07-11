@@ -1,22 +1,30 @@
 .btn {
-    margin: toRem(32) 0 !important;
+    border-radius: 4px;
+    color: var(--white);
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1.75;
+    padding: toRem(4) toRem(16);
+    transition: background-color 0.3 ease;
 }
 
-.MuiButton-contained {
-    background-color: var(--primary-color) !important;
-    color: var(--white) !important;
+.primary-btn {
+    background-color: var(--primary-color);
 
     &:hover {
-        background-color: var(--hover) !important;
+        background-color: var(--hover);
     }
 }
 
-.MuiButton-outlined {
-    border-color: var(--white) !important;
-    color: var(--white) !important;
+.secondary-btn {
+    border: 1px solid var(--white);
 
     &:hover {
-        background-color: darken($primary, 5%) !important;
-        border-color: var(--white) !important;
+        background-color: darken($primary, 5%);
+        border-color: var(--white);
     }
+}
+
+.btn-container {
+    margin: toRem(32) 0;
 }

@@ -1,46 +1,31 @@
-import { Box, Button, Container, Grid } from '@material-ui/core';
-
 const content = {
     logo: 'Tyson Stockholder Lawsuit',
 };
 
 const Header = () => {
-    if (typeof window !== 'undefined') {
-        var prevScrollpos = window.pageYOffset;
-        window.onscroll = function () {
-            var currentScrollPos = window.pageYOffset;
-            if (prevScrollpos > currentScrollPos) {
-                document.getElementById('header').style.top = '0';
-            } else {
-                document.getElementById('header').style.top = '-100px';
-            }
-            prevScrollpos = currentScrollPos;
-        };
-    }
-
     return (
-        <Box component='header' className='header is-white' id='header'>
-            <Container maxWidth='lg'>
-                <Box className='header-wrap'>
-                    <Grid container alignItems='center' justify='space-between'>
-                        <Grid item xs={12} md={6}>
-                            <Box className='logo-wrap'>
+        <header className='header is-white' id='header'>
+            <div className='container-lg'>
+                <div className='header-wrap'>
+                    <div className='flex space-between'>
+                        <div className='column col-50'>
+                            <div className='logo-wrap'>
                                 <h3 className='logo'>{content.logo}</h3>
-                            </Box>
-                        </Grid>
-                        <Grid item xs={12} md={6}>
-                            <Box className='header-cta'>
+                            </div>
+                        </div>
+                        <div className='column col-50'>
+                            <div className='header-cta'>
                                 <a href='#form'>
-                                    <Button variant='outlined'>
+                                    <div className='btn secondary-btn'>
                                         Continue to Free Case Review
-                                    </Button>
+                                    </div>
                                 </a>
-                            </Box>
-                        </Grid>
-                    </Grid>
-                </Box>
-            </Container>
-        </Box>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
     );
 };
 

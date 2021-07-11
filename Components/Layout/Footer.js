@@ -1,9 +1,7 @@
-import { Box, Container } from '@material-ui/core';
-
 const Footer = () => {
     return (
-        <Box component='footer' className='footer'>
-            <Container maxWidth='md'>
+        <footer className='footer'>
+            <div className='container-md'>
                 <small className='small text-center text-muted'>
                     Submission of the information does not create an
                     attorney/client relationship. By clicking submit, you agree
@@ -19,8 +17,8 @@ const Footer = () => {
                     of this website, including means to submit a question or
                     information, do not constitute an offer to represent you.
                 </small>
-            </Container>
-        </Box>
+            </div>
+        </footer>
     );
 };
 

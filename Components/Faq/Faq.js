@@ -1,12 +1,3 @@
-import {
-    Accordion,
-    AccordionSummary,
-    AccordionDetails,
-    Box,
-    Container,
-    Typography,
-} from '@material-ui/core';
-
 const content = {
     q1: 'Do I have a claim?',
     a1: 'If you have purchased any of the sunscreens listed above, you may have a claim whether or not you have developed cancer. See if you are owed compensation at no cost today.',
@@ -16,35 +7,23 @@ const content = {
 
 const Faq = () => {
     return (
-        <Container maxWidth='md'>
-            <Box>
+        <section className='container-md'>
+            <div>
                 <h3 className='heading-3'>Frequently Asked Questions</h3>
-                <Accordion>
-                    <AccordionSummary
-                        expandIcon='+'
-                        aria-controls='panel1a-content'
-                        id='panel1a-header'
-                    >
-                        <Typography>{content.q1}</Typography>
-                    </AccordionSummary>
-                    <AccordionDetails className='answer'>
-                        <Typography>{content.a1}</Typography>
-                    </AccordionDetails>
-                </Accordion>
-                <Accordion>
-                    <AccordionSummary
-                        expandIcon='+'
-                        aria-controls='panel2a-content'
-                        id='panel2a-header'
-                    >
-                        <Typography>{content.q2}</Typography>
-                    </AccordionSummary>
-                    <AccordionDetails className='answer'>
-                        <Typography>{content.a2}</Typography>
-                    </AccordionDetails>
-                </Accordion>
-            </Box>
-        </Container>
+                <button className='accordion' id='accordion'>
+                    {content.q1}
+                </button>
+                <div className='panel'>
+                    <p className='body-text'>{content.a1}</p>
+                </div>
+                <button className='accordion' id='accordion'>
+                    {content.q2}
+                </button>
+                <div className='panel'>
+                    <p className='body-text'>{content.a2}</p>
+                </div>
+            </div>
+        </section>
     );
 };
 

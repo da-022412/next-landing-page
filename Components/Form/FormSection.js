@@ -1,5 +1,3 @@
-import { Box, Container, Grid } from '@material-ui/core';
-
 import Form from './Form';
 
 const content = {
@@ -8,25 +6,18 @@ const content = {
 
 const FormSection = () => {
     return (
-        <Box component='section' className='form-section' py={12} id='form'>
-            <Container maxWidth='sm'>
-                <Grid
-                    container
-                    alignItems='center'
-                    justify='center'
-                    spacing={12}
-                >
-                    <Grid item xs={12} md={12}>
-                        <Box className='form-wrap'>
-                            <Box className='form-section-wrap  text-center'>
-                                <h2 className='heading-2'>{content.title}</h2>
-                            </Box>
-                            <Form />
-                        </Box>
-                    </Grid>
-                </Grid>
-            </Container>
-        </Box>
+        <section className='form-section section' id='form'>
+            <div className='container-sm'>
+                <div className='flex centered'>
+                    <div className='form-wrap'>
+                        <div className='form-section-wrap  text-center'>
+                            <h2 className='heading-2'>{content.title}</h2>
+                        </div>
+                        <Form />
+                    </div>
+                </div>
+            </div>
+        </section>
     );
 };
 

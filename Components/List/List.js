@@ -3,7 +3,7 @@ import { Box } from '@material-ui/core';
 const List = () => {
     return (
         <Box>
-            <ul class='list'>
+            <ul className='list'>
                 <li>Aveeno</li>
                 <li>Babyganics</li>
                 <li>Banana Boat</li>
