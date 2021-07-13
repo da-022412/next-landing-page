@@ -1,5 +1,3 @@
-import { Box, Button, Container } from '@material-ui/core';
-
 const content = {
     title: 'Were you interviewed online through HireVue’s automated AI software by a potential employer?',
     subTitle:

@@ -1,5 +1,3 @@
-import { Box, Button, Container } from '@material-ui/core';
-
 import JotForm from '../Form/JotForm';
 import List from '../List/List';
 
@@ -17,8 +15,8 @@ const content = {
 export default function Content() {
     return (
         <section className='content-section section'>
-            <Container maxWidth='md'>
-                <Box className='text-center' pb={8} pt={6}>
+            <div className='container-md'>
+                <div className='text-center'>
                     <h1 className='heading-1'>{content.intro}</h1>
                     <h2 className='heading-3'>{content.subIntro}</h2>
                     <List />
@@ -27,24 +25,24 @@ export default function Content() {
                             Continue to Free Case Review
                         </a>
                     </div>
-                </Box>
-            </Container>
-            <Container className='text-center' maxWidth='lg'>
-                <Container maxWidth='sm'>
+                </div>
+            </div>
+            <div className='container-lg text-center'>
+                <div className='container-sm'>
                     <h2 className='heading-2'>{false}</h2>
-                </Container>
-                <Box className='content-wrap'>
+                </div>
+                <div className='content-wrap'>
                     <h3 className='heading-3'>
                         <em>{false}</em>
                     </h3>
                     <h3 className='heading-3'>
                         <b>{content.emphasis}</b>
                     </h3>
-                </Box>
-                <Container maxWidth='sm'>
+                </div>
+                <div className='container-sm'>
                     <JotForm />
-                </Container>
-            </Container>
+                </div>
+            </div>
         </section>
     );
 }
