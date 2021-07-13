@@ -1,9 +1,15 @@
 .hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('/images/bk-banner.jpg') center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url('/images/bk-banner.jpg') center center/cover;
+    padding: toRem(160) 0 toRem(120);
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
+    .hero-section {
+        padding: toRem(60) 0 toRem(8);
+    }
+
     .hero-section-wrap {
-        padding: toRem(60) 0;
+        padding: toRem(40) 0;
     }
 }

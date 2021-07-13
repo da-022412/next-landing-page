@@ -24,6 +24,10 @@
 
 .section {
     padding: toRem(100) 0 toRem(32);
+
+    @include sm {
+        padding: toRem(40) 0;
+    }
 }
 
 .flex {
