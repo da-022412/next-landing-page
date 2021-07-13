@@ -1,15 +1,17 @@
 // Blue #007bff
+// Blue Hover #007bff
 // Green #00Ca4c
-// JotForm Silver #ecedf3
+// Green Hover #00bd48
+// Silver #ecedf3
 // Grey #f8f9fa
 
 :root {
-    --primary-color: #007bff;
+    --primary-color: #00ca4c;
     --grey: #ecedf3;
     --white: #fff;
     --text: #212529;
     --muted: #6c757d;
-    --hover: #0056b3;
+    --hover: #00bd48;
 }
 
-$primary: #007bff;
+$primary: #00ca4c;

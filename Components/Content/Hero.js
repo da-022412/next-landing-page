@@ -1,26 +1,26 @@
 import { Box, Button, Container } from '@material-ui/core';
 
 const content = {
-    title: 'Lawyers are Investigating Auto-Renewal Violations by The Atlantic. We Want to...',
+    title: 'Were you interviewed online through HireVue’s automated AI software by a potential employer?',
     subTitle:
-        'If you subscribed to The Atlantic and incurred renewal charges, you may be owed money - fill out the form below to talk with a lawyer.',
+        'If so, you may be entitled to cash compensation for violation of Illinois and New York data privacy laws.',
 };
 
 const FormSection = () => {
     return (
-        <Box component='section' className='hero-section section'>
-            <Container maxWidth='md'>
-                <Box className='is-white text-center hero-section-wrap'>
+        <section className='hero-section section'>
+            <div class='container-md'>
+                <div className='is-white text-center hero-section-wrap'>
                     <h1 className='heading-1'>{content.title}</h1>
                     <h2 className='heading-3'>{content.subTitle}</h2>
-                    <Button variant='contained'>
+                    <div className='btn primary-btn'>
                         <a href='#form' className='is-white'>
                             Get Started
                         </a>
-                    </Button>
-                </Box>
-            </Container>
-        </Box>
+                    </div>
+                </div>
+            </div>
+        </section>
     );
 };
 

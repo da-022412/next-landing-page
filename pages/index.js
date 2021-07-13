@@ -1,14 +1,16 @@
 import Head from 'next/head';
 
 import FormForward from '../Components/Content/FormForward';
+import Hero from '../Components/Content/Hero';
+import Content from '../Components/Content/Content';
 
 export default function Home() {
     return (
         <>
             <Head>
                 <meta charset='utf-8' />
-                <title>Tyson Stockholder Lawsuit</title>
-                <meta name='description' content='Tyson Stockholder Lawsuit' />
+                <title>HireVue Investigation</title>
+                <meta name='description' content='HireVue Investigation' />
                 <meta
                     name='viewport'
                     content='width=device-width, initial-scale=1'
@@ -22,7 +24,8 @@ export default function Home() {
                 <meta name='theme-color' content='#f7f7f7' />
                 <script type='text/javascript' src='scripts.js'></script>
             </Head>
-            <FormForward />
+            <Hero />
+            <Content />
         </>
     );
 }

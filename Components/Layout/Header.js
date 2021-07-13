@@ -1,5 +1,5 @@
 const content = {
-    logo: 'Tyson Stockholder Lawsuit',
+    logo: 'HireVue Investigation',
 };
 
 const Header = () => {

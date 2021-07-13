@@ -4,22 +4,11 @@ const List = () => {
     return (
         <Box>
             <ul className='list'>
-                <li>Aveeno</li>
-                <li>Babyganics</li>
-                <li>Banana Boat</li>
-                <li>Coppertone</li>
-                <li>CVS Health</li>
-                <li>Equate (Walmart)</li>
-                <li>Ethical Zinc</li>
-                <li>La Roche-Posay</li>
-                <li>Max Block</li>
-                <li>Neutrogena</li>
-                <li>Raw Elements</li>
-                <li>TopCare Everyday</li>
-                <li>Solimo</li>
-                <li>Sun Bum</li>
-                <li>Up & Up (Target)</li>
-                <li>Walgreens</li>
+                <li>Kraft Heinz</li>
+                <li>Under Armour</li>
+                <li>Ikea</li>
+                <li>Carnival</li>
+                <li>700+ Other Employers</li>
             </ul>
         </Box>
     );
