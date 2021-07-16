@@ -1,13 +1,14 @@
 import JotForm from '../Form/JotForm';
 import List from '../List/List';
+import Faq from '../Faq/Faq';
 
 const content = {
-    intro: 'Our law firm is investigating companies that used HireVue for collecting information in violation of Illinois and New York privacy laws.',
+    intro: 'Have you taken an online exam at your college or university using Examity proctoring software?',
     subIntro:
-        'If you are an Illinois or New York resident and were interviewed by a potential employer through web-based HireVue software, you may be entitled to compensation and can help deter potentially unlawful practices. The companies were are investigating include but are not limited to:',
-    title: 'Why Would I Be Owed Money?',
+        'If so, your biometric data may have been recorded and stored in violation of privacy laws.',
+    title: 'Illinois state law prevents companies from scanning or recording your face or voice to create “biometric” data, but our investigation leads us to believe that Examity is illegally violating your privacy rights.',
     subTitle:
-        'Oregon state law requires businesses to clearly disclose the terms of any automatically renewing subscription offer and obtain customers’ affirmative consent to those terms before they subscribe.',
+        'If you’ve taken an online test using Examity in the last year, you may have a claim that entitles you to relief of up to $5,000.',
     emphasis:
         'If you interviewed with one of these companies, or any other company that used HireVue software during your interview, know your rights. Speak with our legal team today.',
 };
@@ -19,7 +20,6 @@ export default function Content() {
                 <div className='text-center'>
                     <h1 className='heading-1'>{content.intro}</h1>
                     <h2 className='heading-3'>{content.subIntro}</h2>
-                    <List />
                     <div className='btn primary-btn'>
                         <a href='#form' className='is-white'>
                             Continue to Free Case Review
@@ -28,9 +28,6 @@ export default function Content() {
                 </div>
             </div>
             <div className='container-lg text-center'>
-                <div className='container-sm'>
-                    <h2 className='heading-2'>{false}</h2>
-                </div>
                 <div className='content-wrap'>
                     <h3 className='heading-3'>
                         <em>{false}</em>
@@ -38,6 +35,7 @@ export default function Content() {
                     <h3 className='heading-3'>
                         <b>{content.emphasis}</b>
                     </h3>
+                    <Faq />
                 </div>
                 <div className='container-sm'>
                     <JotForm />

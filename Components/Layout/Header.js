@@ -1,5 +1,5 @@
 const content = {
-    logo: 'HireVue Investigation',
+    logo: 'Examity Investigation',
 };
 
 const Header = () => {

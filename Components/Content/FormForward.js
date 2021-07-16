@@ -3,12 +3,12 @@ import List from '../List/List';
 import Faq from '../Faq/Faq';
 
 const content = {
-    intro: 'Submitted an insurance claim on the Lemonade app?',
+    intro: 'Have you taken an online exam at your college or university using Examity proctoring software?',
     subIntro:
-        'Customers who filed an insurance claim on the Lemonade app had their face scanned and stored by the company.  You may be entitled to a cash award of between $1,000 and $5,000 for the unlawful collection of your biometric data under Illinois Law and possibly more as a service award if you participate in a class action lawsuit.',
-    title: 'Why Could it Have Been Wrong for Lemonade to scan my face? What Can I Do About it?',
+        'If so, your biometric data may have been recorded and stored in violation of privacy laws.',
+    title: 'Illinois state law prevents companies from scanning or recording your face or voice to create “biometric” data, but our investigation leads us to believe that Examity is illegally violating your privacy rights.',
     subTitle:
-        "Under Illinois' Biometric Information Privacy Act (BIPA), a company collecting employees' biometric data (like fingerprints, eye retina scans, or through facial recognition) must inform the person(s) affected, explain why this data is being collected, and how long it will be retained. Companies must also have written consent from a customer before they collect this biometric data. The law gives individuals the right and protection to take legal action against companies who obtain their facial scans or fingerprints without their knowledge and/or use this data without their consent. A number of class action and individual lawsuits have been filed over this issue, with settlements of up to $1.5 million. You may be entitled to $1,000-$5,000 per violation. Know your rights. Talk to a lawyer today.",
+        'If you’ve taken an online test using Examity in the last year, you may have a claim that entitles you to relief of up to $5,000.',
     emphasis:
         'Did you purchase any of the following sunscreen brands within the last four years?',
 };
