@@ -1,7 +1,6 @@
 const content = {
-    title: 'Were you interviewed online through HireVue’s automated AI software by a potential employer?',
-    subTitle:
-        'If so, you may be entitled to cash compensation for violation of Illinois and New York data privacy laws.',
+    title: 'Class Action Agency',
+    subTitle: 'Bringing Consumers and Law Firms Together for Fair Treatment',
 };
 
 const FormSection = () => {

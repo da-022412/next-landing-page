@@ -1,18 +1,21 @@
 .btn {
     border-radius: 4px;
     color: var(--white);
-    display: inline-block;
+    display: block;
     font-weight: 500;
     line-height: 1.75;
+    margin: 0 auto;
+    max-width: 13.75rem;
     padding: toRem(4) toRem(16);
     transition: background-color 0.3 ease;
+    width: auto;
 }
 
 .primary-btn {
     background-color: var(--primary-color);
 
     &:hover {
-        background-color: var(--hover);
+        background-color: darken($primary, 5%);
     }
 }
 

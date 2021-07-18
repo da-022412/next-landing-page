@@ -1,5 +1,5 @@
 const content = {
-    logo: 'Examity Investigation',
+    logo: 'Class Action Agency',
 };
 
 const Header = () => {

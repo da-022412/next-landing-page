@@ -3,14 +3,12 @@ import List from '../List/List';
 import Faq from '../Faq/Faq';
 
 const content = {
-    intro: 'Have you taken an online exam at your college or university using Examity proctoring software?',
-    subIntro:
-        'If so, your biometric data may have been recorded and stored in violation of privacy laws.',
-    title: 'Illinois state law prevents companies from scanning or recording your face or voice to create “biometric” data, but our investigation leads us to believe that Examity is illegally violating your privacy rights.',
+    intro: 'Class Action Agency',
+    subIntro: 'Bringing Consumers and Law Firms Together for Fair Treatment',
+    title: 'Submit Your Complaint',
     subTitle:
-        'If you’ve taken an online test using Examity in the last year, you may have a claim that entitles you to relief of up to $5,000.',
-    emphasis:
-        'Did you purchase any of the following sunscreen brands within the last four years?',
+        'Do you have a complaint against a company or organization and need legal support? Submit your complaint above and be connected with a class action attorney in our network.',
+    emphasis: '',
 };
 
 export default function Content() {
