@@ -22,7 +22,7 @@ export default function Home() {
                 <link rel='apple-touch-icon' href='images/favicon.jpg' />
                 <link rel='shortcut icon' href='images/favicon.jpg' />
                 <link rel='icon' sizes='192x192' href='images/favicon.jpg' />
-                <link rel='stylesheet' href='global.css' />
+                <link rel='stylesheet' href='globals.css' />
 
                 <meta name='theme-color' content='#f7f7f7' />
             </Head>
