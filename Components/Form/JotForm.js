@@ -3,7 +3,7 @@ const Form = () => {
         <div id='form'>
             <script
                 type='text/javascript'
-                src='https://form.jotform.com/jsform/210265972602049'
+                src='https://form.jotform.com/jsform/211995548472165'
             ></script>
         </div>
     );

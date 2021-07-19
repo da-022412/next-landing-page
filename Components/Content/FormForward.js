@@ -3,12 +3,14 @@ import List from '../List/List';
 import Faq from '../Faq/Faq';
 
 const content = {
-    intro: 'Class Action Agency',
-    subIntro: 'Bringing Consumers and Law Firms Together for Fair Treatment',
-    title: 'Submit Your Complaint',
+    intro: 'Forefront Dermatology recently announced that it suffered a data breach that compromised the personal and health information of approximately 2.4 million patients.',
+    subIntro:
+        'If you received notice from Forefront Dermatology that your personal and/or health information was hacked, speak with our attorneys today at no cost to understand your rights.',
+    title: 'Between the dates of May 28, 2021 and June 4, 2021, Forefront Dermatology suffered a cyberattack and are just now notifying 2.4 million current and former patients that their personal and health-related information, including patient names, addresses, dates of birth, patient account numbers, health insurance plan member ID numbers, medical record numbers, dates of service, provider names, and/or medical and clinical treatment information, were accessed by an unauthorized third party.',
     subTitle:
-        'Do you have a complaint against a company or organization and need legal support? Submit your complaint above and be connected with a class action attorney in our network.',
-    emphasis: '',
+        'The hackers accessed the personal information of many patients of Forefront Dermatology, including protected health information. If you received a letter from Forefront Dermatology, get in touch today.',
+    emphasis:
+        'Know your rights and speak with our investigating legal team at no cost.',
 };
 
 export default function Content() {
@@ -32,7 +34,7 @@ export default function Content() {
                         <em>{content.subTitle}</em>
                     </h3>
                     <h3 className='heading-3'>
-                        <b>{false}</b>
+                        <b>{content.emphasis}</b>
                     </h3>
                 </div>
                 <div className='btn-container'>

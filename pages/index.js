@@ -9,8 +9,11 @@ export default function Home() {
         <>
             <Head>
                 <meta charset='utf-8' />
-                <title>Class Action Agency</title>
-                <meta name='description' content='Class Action Agency' />
+                <title>Forefront Dermatology Breach Help</title>
+                <meta
+                    name='description'
+                    content='Forefront Dermatology Breach Help'
+                />
                 <meta
                     name='viewport'
                     content='width=device-width, initial-scale=1'

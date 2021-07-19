@@ -1,5 +1,5 @@
 const content = {
-    logo: 'Class Action Agency',
+    logo: 'Forefront Dermatology Breach Help',
 };
 
 const Header = () => {
