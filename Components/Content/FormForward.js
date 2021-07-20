@@ -3,44 +3,45 @@ import List from '../List/List';
 import Faq from '../Faq/Faq';
 
 const content = {
-    intro: 'Forefront Dermatology recently announced that it suffered a data breach that compromised the personal and health information of approximately 2.4 million patients.',
+    intro: 'Have You Purchased an Easton Baseball Bat That’s Heavier Than Labeled?',
     subIntro:
-        'If you received notice from Forefront Dermatology that your personal and/or health information was hacked, speak with our attorneys today at no cost to understand your rights.',
-    title: 'Between the dates of May 28, 2021 and June 4, 2021, Forefront Dermatology suffered a cyberattack and are just now notifying 2.4 million current and former patients that their personal and health-related information, including patient names, addresses, dates of birth, patient account numbers, health insurance plan member ID numbers, medical record numbers, dates of service, provider names, and/or medical and clinical treatment information, were accessed by an unauthorized third party.',
+        'A class action against Easton claims that many of the company’s bats are too heavy and weigh more than the weight stated on the bats’ labeling, hurting player performance. If you purchased an Easton bat that was heavier than the labeled weight, you may be entitled to compensation.',
+    title: "Customers should be able to rely on what companies say about the weight of their bats, because a bat's size and weight are critical for maximizing player performance. A bat’s length and weight drop affect a number of important performance factors, such as how easy it is for a player to control the bat when swinging it across the plate, the speed and power of the swing, and the player’s batting stance. A bat that’s too heavy by even 1oz can harm performance.",
     subTitle:
-        'The hackers accessed the personal information of many patients of Forefront Dermatology, including protected health information. If you received a letter from Forefront Dermatology, get in touch today.',
+        'A Bat Digest study found that the following models are consistently overweight compared to their listed and advertised weight:',
     emphasis:
-        'Know your rights and speak with our investigating legal team at no cost.',
+        'If you’ve purchased one of these models or another Easton bat that was overweight, you may be entitled to compensation. Speak with our investigating attorneys today at no cost.',
 };
 
 export default function Content() {
     return (
-        <section className='content-section section'>
-            <div className='container-md'>
-                <div className='text-center'>
-                    <h1 className='heading-1'>{content.intro}</h1>
-                    <h2 className='heading-3'>{content.subIntro}</h2>
+        <section className="content-section section">
+            <div className="container-md">
+                <div className="text-center">
+                    <h1 className="heading-1">{content.intro}</h1>
+                    <h2 className="heading-3">{content.subIntro}</h2>
                     <JotForm />
                 </div>
             </div>
-            <div className='container-lg text-center'>
-                <div className='container-md'>
-                    <h3 className='heading-3'>
+            <div className="container-lg text-center">
+                <div className="container-md">
+                    <h3 className="heading-3">
                         <b>{content.title}</b>
                     </h3>
                 </div>
-                <div className='content-wrap'>
-                    <h3 className='heading-3'>
+                <div className="content-wrap">
+                    <h3 className="heading-3">
                         <em>{content.subTitle}</em>
                     </h3>
-                    <h3 className='heading-3'>
+                    <List />
+                    <h3 className="heading-3">
                         <b>{content.emphasis}</b>
                     </h3>
                 </div>
                 <Faq />
-                <div className='btn-container'>
-                    <div className='btn primary-btn'>
-                        <a href='#form' className='is-white'>
+                <div className="btn-container">
+                    <div className="btn primary-btn">
+                        <a href="#form" className="is-white">
                             Continue to Free Case Review
                         </a>
                     </div>

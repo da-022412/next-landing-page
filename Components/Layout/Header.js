@@ -1,5 +1,5 @@
 const content = {
-    logo: 'Forefront Dermatology Breach Help',
+    logo: 'McGuire Law',
 };
 
 const Header = () => {
