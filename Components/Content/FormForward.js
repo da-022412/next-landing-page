@@ -37,6 +37,7 @@ export default function Content() {
                         <b>{content.emphasis}</b>
                     </h3>
                 </div>
+                <Faq />
                 <div className='btn-container'>
                     <div className='btn primary-btn'>
                         <a href='#form' className='is-white'>

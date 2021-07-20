@@ -8,25 +8,26 @@ export default function Home() {
     return (
         <>
             <Head>
-                <meta charset='utf-8' />
+                <meta charset="utf-8" />
                 <title>Forefront Dermatology Breach Help</title>
                 <meta
-                    name='description'
-                    content='Forefront Dermatology Breach Help'
+                    name="description"
+                    content="Forefront Dermatology Breach Help"
                 />
                 <meta
-                    name='viewport'
-                    content='width=device-width, initial-scale=1'
+                    name="viewport"
+                    content="width=device-width, initial-scale=1"
                 />
 
-                <link rel='apple-touch-icon' href='images/favicon.jpg' />
-                <link rel='shortcut icon' href='images/favicon.jpg' />
-                <link rel='icon' sizes='192x192' href='images/favicon.jpg' />
-                <link rel='stylesheet' href='globals.css' />
+                <link rel="apple-touch-icon" href="images/favicon.jpg" />
+                <link rel="shortcut icon" href="images/favicon.jpg" />
+                <link rel="icon" sizes="192x192" href="images/favicon.jpg" />
+                <link rel="stylesheet" href="globals.css" />
 
-                <meta name='theme-color' content='#f7f7f7' />
+                <meta name="theme-color" content="#f7f7f7" />
             </Head>
             <FormForward />
+            <script src="scripts.js"></script>
         </>
     );
 }
