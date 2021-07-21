@@ -1,5 +1,5 @@
 const content = {
-    logo: 'McGuire Law',
+    logo: 'Carney Bates & Pulliam',
 };
 
 const Header = () => {

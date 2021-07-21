@@ -1,18 +1,13 @@
 const content = [
     {
         id: 1,
-        q: 'Is bat weight important?',
-        a: 'Yes! Even a small difference of one ounce can be significant to young boys and girls who play youth baseball competitively.',
+        q: 'Do I Qualify?',
+        a: 'You may qualify for this investigation under the following circumstances: Your leased vehicle was totaled after a car accident.',
     },
     {
         id: 2,
-        q: 'Why are some bats overweight?',
-        a: 'While there may be multiple reasons that a bat is overweight, some believe that inaccurate weights are due to poor quality control measures used in the design and manufacture process.',
-    },
-    {
-        id: 3,
-        q: 'Where can I find my bat’s stated weight?',
-        a: 'The weight or weight drop should be printed directly on the gnob or barrel of the bat.',
+        q: 'Will this cost me anything?',
+        a: 'No.  We will fight for your rights on a contingency basis.  We don’t get paid unless you do.',
     },
 ];
 

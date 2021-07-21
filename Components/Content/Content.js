@@ -3,11 +3,11 @@ import List from '../List/List';
 import Faq from '../Faq/Faq';
 
 const content = {
-    intro: 'Class Action Agency',
-    subIntro: 'Bringing Consumers and Law Firms Together for Fair Treatment',
-    title: 'Submit Your Complaint',
+    intro: 'Have you paid off or re-financed a residential mortgage?',
+    subIntro: 'If so, you may be entitled to $500.',
+    title: 'Why would I be entitled to $500?',
     subTitle:
-        'Do you have a complaint against a company or organization and need legal support? Submit your complaint below and be connected with a class action attorney in our network.',
+        'California law requires mortgage lenders to record satisfactions of mortgages within 30 days after they have been paid off.  Failure to comply with this rule may make the lender liable for $500.  However, mortgage lenders sometimes neglect to record these documents on time, if at all.',
     emphasis: '',
 };
 

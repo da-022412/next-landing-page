@@ -9,8 +9,8 @@ export default function Home() {
         <>
             <Head>
                 <meta charset='utf-8' />
-                <title>Easton Bat Investigation</title>
-                <meta name='description' content='Easton Bat Investigation' />
+                <title>Carney Bates & Pulliam</title>
+                <meta name='description' content='Carney Bates & Pulliam' />
                 <meta
                     name='viewport'
                     content='width=device-width, initial-scale=1'
