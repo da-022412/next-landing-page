@@ -3,12 +3,13 @@ import List from '../List/List';
 import Faq from '../Faq/Faq';
 
 const content = {
-    intro: 'Have you paid off or re-financed a residential mortgage?',
-    subIntro: 'If so, you may be entitled to $500.',
-    title: 'Why would I be entitled to $500?',
+    intro: 'Have You Purchased A “Disinfecting” UV Light?',
+    subIntro: 'If so, you may be owed money.',
+    title: 'Why Would I Be Owed Money?',
     subTitle:
-        'California law requires mortgage lenders to record satisfactions of mortgages within 30 days after they have been paid off.  Failure to comply with this rule may make the lender liable for $500.  However, mortgage lenders sometimes neglect to record these documents on time, if at all.',
-    emphasis: '',
+        'With the Covid-19 pandemic, many manufacturers are marketing ultraviolet-C (“UVC”) lights in order to disinfect surfaces in the home or similar spaces.  However, the U.S. Food and Drug Administration (“FDA”) reports that “[t]he effectiveness of UVC lamps in inactivating the SARS-CoV-2 virus is unknown because there is limited published data about the wavelength, dose, and duration of UVC radiation required to inactivate the [virus],” and that “[m]any of the UVC lamps sold for home use are of low dose.',
+    emphasis:
+        'If you have purchased a “disinfecting” UV light at any point during the last four years, we would like to hear from you.',
 };
 
 export default function Content() {
@@ -32,7 +33,20 @@ export default function Content() {
                         <em>{content.subTitle}</em>
                     </h3>
                     <h3 className='heading-3'>
-                        <b>{false}</b>
+                        <em>
+                            At the same time, the FDA warns consumers that “UVC
+                            lamps used for disinfection purposes may pose
+                            potential health and safety risks depending on the
+                            UVC wavelength, dose, and duration of radiation
+                            exposure.” Specifically, “UVC radiation can cause
+                            severe burns (of the skin) and eye injuries
+                            (photokeratitis),” and consumers should “[a]void
+                            direct skin exposure to UVC radiation and never look
+                            directly into a UVC light source, even briefly.”
+                        </em>
+                    </h3>
+                    <h3 className='heading-3'>
+                        <b>{content.emphasis}</b>
                     </h3>
                 </div>
                 <div className='container-sm'>

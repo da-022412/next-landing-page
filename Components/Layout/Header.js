@@ -1,5 +1,5 @@
 const content = {
-    logo: 'Carney Bates & Pulliam',
+    logo: 'ResMed Stockholder Lawsuit',
 };
 
 const Header = () => {

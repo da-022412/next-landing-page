@@ -3,13 +3,14 @@ import List from '../List/List';
 import Faq from '../Faq/Faq';
 
 const content = {
-    intro: 'If you totaled a leased vehicle, your insurance company may owe you hundreds, or even thousands, of dollars in mandatory sales tax and fee payments. You’ve paid premiums for insurance coverage and deserve the full benefits you’re entitled to.',
+    intro: 'Do you own stock in ResMed that was purchased before 2017?',
     subIntro:
-        'If your leased vehicle was totaled, you may be entitled to compensation for costs that insurance failed to pay you, like taxes. Insurance companies throughout the United States are breaching their insurance policies by failing to pay required sales tax and fees to customers with leased vehicles. This may have cost you hundreds or even thousands of dollars.',
-    title: 'If you leased a vehicle that was totaled you have the right to full compensation, and you may have a valuable claim.',
-    subTitle: 'Know your rights. Speak with an attorney at no cost today.',
+        'If so, you may be entitled to a court approved incentive award in connection with stockholder litigation.',
+    title: 'Why might I be entitled to an incentive award as a stockholder of ResMed?',
+    subTitle:
+        'ResMed executives have caused the Company to pay more than $37.5 million to resolve allegations that the Company violated the False Claims Act for paying kickbacks to suppliers and healthcare providers. ResMed shareholders have been significantly harmed as a result.',
     emphasis:
-        'If you’ve purchased one of these models or another Easton bat that was overweight, you may be entitled to compensation. Speak with our investigating attorneys today at no cost.',
+        'If you own stock in ResMed that was purchased before 2017, know your rights. Speak with an attorney at no cost today.',
 };
 
 export default function Content() {
@@ -33,10 +34,9 @@ export default function Content() {
                         <em>{content.subTitle}</em>
                     </h3>
                     <h3 className='heading-3'>
-                        <b>{false}</b>
+                        <b>{content.emphasis}</b>
                     </h3>
                 </div>
-                <Faq />
                 <div className='btn-container'>
                     <div className='btn primary-btn'>
                         <a href='#form' className='is-white'>
