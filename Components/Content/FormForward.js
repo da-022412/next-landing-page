@@ -3,10 +3,9 @@ import List from '../List/List';
 import Faq from '../Faq/Faq';
 
 const content = {
-    intro: 'Do you own stock in ResMed that was purchased before 2017?',
-    subIntro:
-        'If so, you may be entitled to a court approved incentive award in connection with stockholder litigation.',
-    title: 'Why might I be entitled to an incentive award as a stockholder of ResMed?',
+    intro: 'Have you purchased or sold stock XYZ in the last 2 months?',
+    subIntro: 'If so, you may be entitled to compensation for ABC.',
+    title: 'Why would I be owed money?',
     subTitle:
         'ResMed executives have caused the Company to pay more than $37.5 million to resolve allegations that the Company violated the False Claims Act for paying kickbacks to suppliers and healthcare providers. ResMed shareholders have been significantly harmed as a result.',
     emphasis:

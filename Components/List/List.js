@@ -2,20 +2,25 @@ const List = () => {
     return (
         <div>
             <ul className='list'>
-                <li>2018 Beast X 2 ¾ USSSA</li>
-                <li>2018 Beast X Loaded BBCOR</li>
-                <li>2018 Beast X Speed BBCOR</li>
-                <li>2018 Beast X Speed BBCOR</li>
-                <li>2018 Ghost X USSSA</li>
-                <li>2018 Ghost X USABat</li>
-                <li>2018 Ghost X BBCOR</li>
-                <li>2018 Ghost X BBCOR</li>
-                <li>2018 Ghost X 2 3/4 USSSA</li>
-                <li>2018 Ghost X Hybrid USABat</li>
-                <li>2018 Ghost X Hyperlite USABat</li>
-                <li>2018 Magnum USABat</li>
-                <li>2017 MAKO Beast BBCOR</li>
-                <li>2017 Z-Core Lock & Load BBCOR</li>
+                <li>Amazon.com</li>
+                <li>NYX Professional Makeup</li>
+                <li>Maybelline.com</li>
+                <li>MAC</li>
+                <li>L’Oréal Paris</li>
+                <li>Benefit Cosmetics</li>
+                <li>Chanel</li>
+                <li>Avon</li>
+                <li>Cult Beauty</li>
+                <li>Match Me</li>
+                <li>Warby Parker</li>
+                <li>Lenscrafters.com</li>
+                <li>Framesdirect.com</li>
+                <li>Eyeconic.com</li>
+                <li>Glasses.com</li>
+                <li>Solstice Sunglasses</li>
+                <li>Garnier</li>
+                <li>Redken</li>
+                <li>Schwarzkopf</li>
             </ul>
         </div>
     );

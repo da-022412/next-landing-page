@@ -1,5 +1,5 @@
 const content = {
-    logo: 'ResMed Stockholder Lawsuit',
+    logo: 'Illinois Biometric Attorneys',
 };
 
 const Header = () => {

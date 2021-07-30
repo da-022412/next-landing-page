@@ -1,6 +1,7 @@
 const content = {
-    title: 'Class Action Agency',
-    subTitle: 'Bringing Consumers and Law Firms Together for Fair Treatment',
+    title: 'Tried on any beauty or other product by uploading a photograph of your face to a website or smartphone app? Amazon and many other companies offer these virtual try on services.',
+    subTitle:
+        'Those impacted who take legal action may be entitled to receive between $1,000 and $5,000 per violation.',
 };
 
 const FormSection = () => {

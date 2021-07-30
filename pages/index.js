@@ -9,8 +9,11 @@ export default function Home() {
         <>
             <Head>
                 <meta charset='utf-8' />
-                <title>ResMed Stockholder Lawsuit</title>
-                <meta name='description' content='ResMed Stockholder Lawsuit' />
+                <title>Illinois Biometric Attorneys</title>
+                <meta
+                    name='description'
+                    content='Illinois Biometric Attorneys'
+                />
                 <meta
                     name='viewport'
                     content='width=device-width, initial-scale=1'
@@ -23,7 +26,8 @@ export default function Home() {
 
                 <meta name='theme-color' content='#f7f7f7' />
             </Head>
-            <FormForward />
+            <Hero />
+            <Content />
             <script src='scripts.js'></script>
         </>
     );

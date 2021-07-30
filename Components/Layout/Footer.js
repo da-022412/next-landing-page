@@ -2,31 +2,43 @@ const Footer = () => {
     return (
         <footer className='footer'>
             <div className='container-md text-center'>
+                <small className='small text-muted'>Attorney Advertising</small>
+                <br />
+                <br />
                 <small className='small text-muted'>
-                    Attorney Advertising. Rigrodsky Law, P.A. 300 Delaware
-                    Avenue, Suite 210, Wilmington, DE, 19801. The contents of
-                    this website are offered for informational purposes only, do
-                    not constitute legal advice, do not necessarily reflect the
-                    opinions of Rigrodsky Law, P.A. or any of its attorneys,
-                    staff, or clients, and are not guaranteed to be correct,
-                    complete, or up-to-date. A visit to or submission on this
-                    website does not create an attorney-client relationship
-                    between you and Rigrodsky Law, P.A. You should not act or
-                    rely on any information in this website without consulting
-                    an attorney for individual advice regarding your individual
-                    situation. If you have any questions regarding the contents
-                    of this website, please contact us. By clicking submit, you
-                    agree to the{' '}
+                    Keogh Law, Ltd, 55 W. Monroe St #3390, Chicago, IL 60603
+                </small>
+                <br />
+                <br />
+                <small className='small text-muted'>
+                    Submission of the information does not create an
+                    attorney-client relationship. By clicking submit, you agree
+                    to the{' '}
                     <a
-                        href='https://www.rl-legal.com/privacy'
+                        href='https://classactionagency.co/privacy-policy/'
+                        class='link'
                         target='_blank'
                         rel='nofollow'
-                        className='link'
                     >
-                        Privacy Policy
+                        Terms and Conditions and Privacy Policy
                     </a>{' '}
                     and that we may contact you using any of the information
-                    that you have provided.
+                    that you have provided. This website is for educational and
+                    informational purposes only. No attorney-client relationship
+                    is formed by your use of this website or by any
+                    communication you send or receive through this site. The
+                    content and features on this website shall not be construed
+                    as legal advice. The content and features of this website,
+                    including means to submit a question or information, do not
+                    constitute an offer to represent you. Any information you
+                    submit may be shared with Keogh Law, Ltd. While your
+                    communications with a lawyer may be subject to the
+                    attorney-client privilege, communications through this
+                    website may not be. Please do not share any confidential or
+                    privileged information through this website. You are not
+                    formally represented by a law firm unless and until a
+                    contract of representation is signed by you and the law
+                    firm.
                 </small>
             </div>
         </footer>
