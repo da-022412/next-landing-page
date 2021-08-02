@@ -9,11 +9,8 @@ export default function Home() {
         <>
             <Head>
                 <meta charset='utf-8' />
-                <title>Illinois Biometric Attorneys</title>
-                <meta
-                    name='description'
-                    content='Illinois Biometric Attorneys'
-                />
+                <title>Sunscreen Recall Help</title>
+                <meta name='description' content='Sunscreen Recall Help' />
                 <meta
                     name='viewport'
                     content='width=device-width, initial-scale=1'
@@ -26,8 +23,7 @@ export default function Home() {
 
                 <meta name='theme-color' content='#f7f7f7' />
             </Head>
-            <Hero />
-            <Content />
+            <FormForward />
             <script src='scripts.js'></script>
         </>
     );

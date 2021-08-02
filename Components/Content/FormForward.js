@@ -3,13 +3,14 @@ import List from '../List/List';
 import Faq from '../Faq/Faq';
 
 const content = {
-    intro: 'Have you purchased or sold stock XYZ in the last 2 months?',
-    subIntro: 'If so, you may be entitled to compensation for ABC.',
-    title: 'Why would I be owed money?',
+    intro: 'Have you Purchased Aerosol Sunscreen Produced by Neutragena or Aveeno?',
+    subIntro:
+        'Many of these have been found to contain benzene, a chemical that causes cancer. If you have purchased one of the sunscreens below, you may be entitled to compensation.',
+    title: 'Five NEUTROGENA® and AVEENO® aerosol sunscreen product lines have been found to contain benzene and have been recalled by the manufacturer, now subject to the FDA MedWatch Adverse Event Reporting Program. The specific sunscreens include the following:',
     subTitle:
-        'ResMed executives have caused the Company to pay more than $37.5 million to resolve allegations that the Company violated the False Claims Act for paying kickbacks to suppliers and healthcare providers. ResMed shareholders have been significantly harmed as a result.',
+        'Recently, one purchaser suffered from burns and a damaged house when her Kidde fire extinguisher failed to operate. We urge you to check your fire extinguisher brand and contact us if it’s a Kidde. Even if you’ve owned a Kidde in the past you are eligible to take action.',
     emphasis:
-        'If you own stock in ResMed that was purchased before 2017, know your rights. Speak with an attorney at no cost today.',
+        'If you have purchased any of these sunscreens, you may be entitled to compensation and can help deter the business practices that lead to such a dangerous byproduct affecting consumers. Know your rights. Get in touch today at no cost.',
 };
 
 export default function Content() {
@@ -27,10 +28,11 @@ export default function Content() {
                     <h3 className='heading-3'>
                         <b>{content.title}</b>
                     </h3>
+                    <List />
                 </div>
                 <div className='content-wrap'>
                     <h3 className='heading-3'>
-                        <em>{content.subTitle}</em>
+                        <em>{false}</em>
                     </h3>
                     <h3 className='heading-3'>
                         <b>{content.emphasis}</b>

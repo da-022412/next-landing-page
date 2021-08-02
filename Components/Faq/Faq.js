@@ -1,13 +1,13 @@
 const content = [
     {
         id: 1,
-        q: 'Why is it illegal to collect biometric identifiers without written consent?',
-        a: 'The collection of biometric identifiers poses significant privacy risks. Unlike keyfobs or identification cards, biometric identifiers such as facial geometry cannot be replaced. If a person’s biometric identifier is lost, stolen, or compromised, the person has no recourse and is at a heightened risk of identity theft. Thus, the Illinois Biometric Information Privacy Act generally requires businesses to obtain a person’s informed written consent before collecting the person’s biometric identifiers.',
+        q: 'What if I have owned a Kidde but have never used it?',
+        a: 'Whether you have used it or not, you may be entitled to compensation for purchasing a Kidde fire extinguisher. Speak with an investigating attorney today at no cost.',
     },
     {
         id: 2,
-        q: 'Does the Biometric Information Privacy Act only apply to Illinois businesses?',
-        a: 'No. The Biometric Information Privacy Act generally applies to everyone who collects biometric identifiers from Illinois residents. If any company has scanned your face, fingerprints, handprints, or retina without obtaining your informed written consent, contact us for a free case review.',
+        q: 'What if I owned a Kidde Fire Extinguisher but no longer have it?',
+        a: 'You may still be entitled to compensation if you no longer have it. Speak with an investigating attorney to understand if you may be entitled to compensation at no cost.',
     },
 ];
 

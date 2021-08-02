@@ -1,5 +1,5 @@
 const content = {
-    logo: 'Illinois Biometric Attorneys',
+    logo: 'Sunscreen Recall Help',
 };
 
 const Header = () => {
