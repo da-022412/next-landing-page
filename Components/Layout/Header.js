@@ -1,5 +1,5 @@
 const content = {
-    logo: 'Sunscreen Recall Help',
+    logo: 'GE Air Conditioner Help',
 };
 
 const Header = () => {

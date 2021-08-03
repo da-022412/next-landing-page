@@ -9,8 +9,8 @@ export default function Home() {
         <>
             <Head>
                 <meta charset='utf-8' />
-                <title>Sunscreen Recall Help</title>
-                <meta name='description' content='Sunscreen Recall Help' />
+                <title>GE Air Conditioner Help</title>
+                <meta name='description' content='GE Air Conditioner Help' />
                 <meta
                     name='viewport'
                     content='width=device-width, initial-scale=1'

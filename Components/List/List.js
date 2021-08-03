@@ -2,11 +2,9 @@ const List = () => {
     return (
         <div>
             <ul className='list'>
-                <li>NEUTROGENA® Beach Defense® aerosol sunscreen,</li>
-                <li>NEUTROGENA® Cool Dry Sport aerosol sunscreen,</li>
-                <li>NEUTROGENA® Invisible Daily™ defense aerosol sunscreen,</li>
-                <li>NEUTROGENA® Ultra Sheer® aerosol sunscreen, and</li>
-                <li>AVEENO® Protect + Refresh aerosol sunscreen.</li>
+                <li>AHC14AZ</li>
+                <li>AHS14AX</li>
+                <li>AJCQ12DCDW1</li>
             </ul>
         </div>
     );

@@ -3,14 +3,13 @@ import List from '../List/List';
 import Faq from '../Faq/Faq';
 
 const content = {
-    intro: 'Have you Purchased Aerosol Sunscreen Produced by Neutragena or Aveeno?',
+    intro: 'Have You Purchased a GE air conditioner?',
     subIntro:
-        'Many of these have been found to contain benzene, a chemical that causes cancer. If you have purchased one of the sunscreens below, you may be entitled to compensation.',
-    title: 'Five NEUTROGENA® and AVEENO® aerosol sunscreen product lines have been found to contain benzene and have been recalled by the manufacturer, now subject to the FDA MedWatch Adverse Event Reporting Program. The specific sunscreens include the following:',
-    subTitle:
-        'Recently, one purchaser suffered from burns and a damaged house when her Kidde fire extinguisher failed to operate. We urge you to check your fire extinguisher brand and contact us if it’s a Kidde. Even if you’ve owned a Kidde in the past you are eligible to take action.',
+        'A class action against GE claims that many of GE air conditioners are designed in a way that leads them to malfunction. If you purchased a GE air conditioner within the last 4 years, you may be entitled to compensation.',
+    title: 'Our legal team is investigating GE air conditioner models that lack a protective barrier for unit circuit boards, often resulting in system failure due to moisture.',
+    subTitle: 'The following GE air conditioner units are being investigated:',
     emphasis:
-        'If you have purchased any of these sunscreens, you may be entitled to compensation and can help deter the business practices that lead to such a dangerous byproduct affecting consumers. Know your rights. Get in touch today at no cost.',
+        'If you’ve purchased one of these models or another air conditioner that has malfunctioned, you may be entitled to compensation. Speak with our investigating attorneys today at no cost.',
 };
 
 export default function Content() {
@@ -28,12 +27,12 @@ export default function Content() {
                     <h3 className='heading-3'>
                         <b>{content.title}</b>
                     </h3>
-                    <List />
                 </div>
                 <div className='content-wrap'>
                     <h3 className='heading-3'>
-                        <em>{false}</em>
+                        <em>{content.subTitle}</em>
                     </h3>
+                    <List />
                     <h3 className='heading-3'>
                         <b>{content.emphasis}</b>
                     </h3>
