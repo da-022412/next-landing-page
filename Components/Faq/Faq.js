@@ -1,13 +1,13 @@
 const content = [
     {
         id: 1,
-        q: 'What if I have owned a Kidde but have never used it?',
-        a: 'Whether you have used it or not, you may be entitled to compensation for purchasing a Kidde fire extinguisher. Speak with an investigating attorney today at no cost.',
+        q: 'What issues have been reported with these air conditioner models?',
+        a: 'In addition to complete failure, reports indicate beeping, not turning on, not regulating temperature, dying, and other glitches.',
     },
     {
         id: 2,
-        q: 'What if I owned a Kidde Fire Extinguisher but no longer have it?',
-        a: 'You may still be entitled to compensation if you no longer have it. Speak with an investigating attorney to understand if you may be entitled to compensation at no cost.',
+        q: 'Should I try to fix the issue myself?',
+        a: 'No, tampering with the air conditioner unit could bar your claim.',
     },
 ];
 

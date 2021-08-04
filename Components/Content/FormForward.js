@@ -44,6 +44,7 @@ export default function Content() {
                         </a>
                     </div>
                 </div>
+                <Faq />
             </div>
         </section>
     );
