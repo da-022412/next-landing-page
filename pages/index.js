@@ -9,8 +9,8 @@ export default function Home() {
         <>
             <Head>
                 <meta charset='utf-8' />
-                <title>GE Air Conditioner Help</title>
-                <meta name='description' content='GE Air Conditioner Help' />
+                <title>Ancestry.com Help</title>
+                <meta name='description' content='Ancestry.com Help' />
                 <meta
                     name='viewport'
                     content='width=device-width, initial-scale=1'

@@ -1,5 +1,5 @@
 const content = {
-    logo: 'GE Air Conditioner Help',
+    logo: 'Ancestry.com Help',
 };
 
 const Header = () => {
