@@ -9,8 +9,8 @@ export default function Home() {
         <>
             <Head>
                 <meta charset='utf-8' />
-                <title>Ancestry.com Help</title>
-                <meta name='description' content='Ancestry.com Help' />
+                <title>Bursor & Fisher</title>
+                <meta name='description' content='Bursor & Fisher' />
                 <meta
                     name='viewport'
                     content='width=device-width, initial-scale=1'
@@ -23,7 +23,7 @@ export default function Home() {
 
                 <meta name='theme-color' content='#f7f7f7' />
             </Head>
-            <FormForward />
+            <Content />
             <script src='scripts.js'></script>
         </>
     );

@@ -3,10 +3,9 @@ import List from '../List/List';
 import Faq from '../Faq/Faq';
 
 const content = {
-    intro: 'Companies that we are investigating include (but are not limited to):',
-    subIntro:
-        'If you’ve virtually tried on products using any of these websites or apps, find out whether you may have a legal claim.  It only takes a few minutes and is 100% free.',
-    title: 'Why would I be entitled to compensation?',
+    intro: 'Have you ever purchased Nature’s Bounty Gingko Biloba capsules?',
+    subIntro: 'If so, you may be entitled to compensation.',
+    title: 'Why would I be owed money?',
     subTitle:
         'The Illinois Biometric Information Privacy Act generally requires all companies to obtain written consent before collecting biometric identifiers such as scans of facial geometry, fingerprints, and voice prints.',
     emphasis:
@@ -19,7 +18,6 @@ export default function Content() {
             <div className='container-md'>
                 <div className='text-center'>
                     <h1 className='heading-1'>{content.intro}</h1>
-                    <List />
                     <h2 className='heading-3'>{content.subIntro}</h2>
                     <div className='btn primary-btn'>
                         <a href='#form' className='is-white'>
@@ -32,25 +30,26 @@ export default function Content() {
                 <div className='content-wrap'>
                     <h2 className='heading-2'>{content.title}</h2>
                     <h3 className='heading-3'>
-                        <em>{content.subTitle}</em>
+                        <em>{false}</em>
                     </h3>
                     <h3 className='heading-3'>
                         <em>
-                            Illinois residents who take legal action may be
-                            entitled to receive between $1,000 to $5,000 per
-                            violation. Additionally, individuals who serve as
-                            lead plaintiffs may be able to collect an incentive
-                            award if the lawsuit results in a settlement.
+                            The packaging of Nature’s Bounty Gingko Biloba says
+                            that it “Supports Healthy Brain Function & Mental
+                            Alertness.” In fact, the Food and Drug
+                            Administration has not evaluated that statement, and
+                            several studies have shown that gingko biloba
+                            provides <b>no benefits</b> in brain function or
+                            mental alertness.
                         </em>
                     </h3>
                     <h3 className='heading-3'>
-                        <b>{content.emphasis}</b>
+                        <b>{false}</b>
                     </h3>
                 </div>
                 <div className='container-lg'>
                     <JotForm />
                 </div>
-                <Faq />
             </div>
         </section>
     );

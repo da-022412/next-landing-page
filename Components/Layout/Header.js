@@ -1,5 +1,5 @@
 const content = {
-    logo: 'Ancestry.com Help',
+    logo: 'Bursor & Fisher',
 };
 
 const Header = () => {
