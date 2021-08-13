@@ -3,11 +3,11 @@ import List from '../List/List';
 import Faq from '../Faq/Faq';
 
 const content = {
-    intro: 'Have you ever purchased Nature’s Bounty Gingko Biloba capsules?',
+    intro: 'Have you ever purchased Zicam Cold Remedies?',
     subIntro: 'If so, you may be entitled to compensation.',
     title: 'Why would I be owed money?',
     subTitle:
-        'The Illinois Biometric Information Privacy Act generally requires all companies to obtain written consent before collecting biometric identifiers such as scans of facial geometry, fingerprints, and voice prints.',
+        'ZICAM Pre-Cold Medicine products are advertised as clinically proven to shorten the duration of a cold when taken at the first sign of a cold.  However, ZICAM Pre-Cold Medicine has not been clinically proven to shorten a cold, and does not prevent users from catching a cold. ',
     emphasis:
         'If you have purchased a “disinfecting” UV light at any point during the last four years, we would like to hear from you.',
 };
@@ -30,18 +30,7 @@ export default function Content() {
                 <div className='content-wrap'>
                     <h2 className='heading-2'>{content.title}</h2>
                     <h3 className='heading-3'>
-                        <em>{false}</em>
-                    </h3>
-                    <h3 className='heading-3'>
-                        <em>
-                            The packaging of Nature’s Bounty Gingko Biloba says
-                            that it “Supports Healthy Brain Function & Mental
-                            Alertness.” In fact, the Food and Drug
-                            Administration has not evaluated that statement, and
-                            several studies have shown that gingko biloba
-                            provides <b>no benefits</b> in brain function or
-                            mental alertness.
-                        </em>
+                        <em>{content.subTitle}</em>
                     </h3>
                     <h3 className='heading-3'>
                         <b>{false}</b>
