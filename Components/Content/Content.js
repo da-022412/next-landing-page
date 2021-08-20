@@ -3,11 +3,11 @@ import List from '../List/List';
 import Faq from '../Faq/Faq';
 
 const content = {
-    intro: 'Have you ever purchased Zicam Cold Remedies?',
+    intro: 'Have you purchased Premama Fertility Support products?',
     subIntro: 'If so, you may be entitled to compensation.',
     title: 'Why would I be owed money?',
     subTitle:
-        'ZICAM Pre-Cold Medicine products are advertised as clinically proven to shorten the duration of a cold when taken at the first sign of a cold.  However, ZICAM Pre-Cold Medicine has not been clinically proven to shorten a cold, and does not prevent users from catching a cold. ',
+        'Premama claims that its Fertility Support products provide natural reproductive support for women trying to conceive, and that it is proven to optimize your chances of conception.  However, there are no studies supporting those claims, and  Premama admitted that it cannot definitively say that its products increase the chances of becoming pregnant.',
     emphasis:
         'If you have purchased a “disinfecting” UV light at any point during the last four years, we would like to hear from you.',
 };
