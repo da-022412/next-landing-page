@@ -1,13 +1,8 @@
 const content = [
     {
         id: 1,
-        q: 'What issues have been reported with these air conditioner models?',
-        a: 'In addition to complete failure, reports indicate beeping, not turning on, not regulating temperature, dying, and other glitches.',
-    },
-    {
-        id: 2,
-        q: 'Should I try to fix the issue myself?',
-        a: 'No, tampering with the air conditioner unit could bar your claim.',
+        q: 'What if I own a Philip Respironics device but I haven’t experienced any health problems?',
+        a: 'You may nonetheless be owed compensation if you own one of the affected product models. Know your rights and help hold the device manufacturer responsible to deter danger to consumers in the future. Seeing if you have been affected is free and fast.',
     },
 ];
 

@@ -23,7 +23,7 @@ export default function Home() {
 
                 <meta name='theme-color' content='#f7f7f7' />
             </Head>
-            <Content />
+            <FormForward />
             <script src='scripts.js'></script>
         </>
     );
