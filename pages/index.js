@@ -9,8 +9,8 @@ export default function Home() {
         <>
             <Head>
                 <meta charset='utf-8' />
-                <title>Bursor & Fisher</title>
-                <meta name='description' content='Bursor & Fisher' />
+                <title>Carney, Bates & Pulliam</title>
+                <meta name='description' content='Carney, Bates & Pulliam' />
                 <meta
                     name='viewport'
                     content='width=device-width, initial-scale=1'
@@ -23,7 +23,8 @@ export default function Home() {
 
                 <meta name='theme-color' content='#f7f7f7' />
             </Head>
-            <FormForward />
+            <Hero />
+            <Content />
             <script src='scripts.js'></script>
         </>
     );

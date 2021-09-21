@@ -1,5 +1,5 @@
 const content = {
-    logo: 'Bursor & Fisher',
+    logo: 'Carney, Bates & Pulliam',
 };
 
 const Header = () => {

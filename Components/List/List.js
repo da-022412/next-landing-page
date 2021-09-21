@@ -2,9 +2,18 @@ const List = () => {
     return (
         <div>
             <ul className='list'>
-                <li>AHC14AZ</li>
-                <li>AHS14AX</li>
-                <li>AJCQ12DCDW1</li>
+                <li>2022 and 2021</li>
+                <ul className='sub-list'>
+                    <li>Outback Limited XT</li>
+                    <li>Outback Touring</li>
+                    <li>Outback Touring XT</li>
+                    <li>Legacy Limited XT</li>
+                    <li>Legacy Touring XT</li>
+                </ul>
+                <li>2019-2021</li>
+                <ul className='sub-list'>
+                    <li>Forester Touring</li>
+                </ul>
             </ul>
         </div>
     );

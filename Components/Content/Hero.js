@@ -1,7 +1,7 @@
 const content = {
-    title: 'Tried on any beauty or other product by uploading a photograph of your face to a website or smartphone app? Amazon and many other companies offer these virtual try on services.',
+    title: 'Do you own a Subaru model equipped with the DriverFocus Driver Monitoring System?',
     subTitle:
-        'Those impacted who take legal action may be entitled to receive between $1,000 and $5,000 per violation.',
+        'If you own a 2019 - 2022 Forester Touring, 2021-2022 Outback Touring or Outback Limited XT, or 2021 - 2022 Legacy Touring or Legacy Limited XT, you may be entitled to compensation for the unlawful collection of your biometric data.',
 };
 
 const FormSection = () => {
